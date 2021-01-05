@@ -1,0 +1,126 @@
+/* ================================ */
+/* Theme Color = #FF8367 */
+/* Head color = #363958 */
+
+/* ================================ */
+
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+.menu_section{
+    text-align: right;
+}
+.menu_section ul li{
+    display: inline;
+    margin: 0 2%;
+}
+.menu_section ul li a{
+    text-decoration: none;
+}
+
+section{
+    margin-bottom: 100px;
+    height: 400px;
+}
+
+.half_part{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+h1{
+    color: #363958;
+    font-size: 55px;
+}
+
+.half_part h2,
+.project_head h2{
+    font-size: 35px;
+    color: #363958;
+
+}
+
+.color_span{
+    color:#FF8367;
+}
+
+.half_part img{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn_link{
+    border: none;
+    background-image: linear-gradient(45deg, #FF8367, #ffa08b);
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.project_section{
+    background-color: #fff6f5;
+    height: 500px;
+    padding: 40px 0px;
+}
+
+.project_child{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding: 1%;
+    background-color: #fff;
+    border-radius: 13px;
+    box-shadow: 10px 10px 30px #adadad;
+
+}
+
+.project_child img{
+    width: 100%;
+}
+.project_head{
+    text-align: center;
+}
+
+.inquery_sec{
+    background-image: url("../Images/background_image/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#work_inq h1{
+    color: #fff;
+    margin: 20% 10%;
+}
+
+#chat_button{
+    padding-top: 11%;
+    text-align: right;
+}
+
+.footer_sec{
+    text-align: center;
+    padding: 4% 10%;
+}
+
+.footer_sec h2{
+    text-transform: lowercase;
+}
+
+.footer_sec ul {
+    margin-left: -3%;
+}
+.footer_sec ul li{
+    list-style: none;
+    display: inline;
+    margin: 0px 5px;
+}
+.footer_sec ul li img{
+    width: 35px;
+    height: auto;
+}
