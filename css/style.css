@@ -19,8 +19,8 @@ body{
 }
 
 section{
-    margin-bottom: 100px;
-    height: 400px;
+    margin-bottom: 150px;
+    height: 300px;
     clear: both;
 }
 
@@ -65,8 +65,8 @@ section{
 
 .project_section{
     background-color: #fff6f5;
-    height: 500px;
-    padding: 40px 0px;
+    height: 600px;
+    padding: 20px 0px;
 }
 
 .project_child{
@@ -92,7 +92,7 @@ section{
     background-image: url("../Images/background_image/Group_33094_1.png");
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 10% 20% 0 20%;
+    margin: 10% 20% -10% 20%;
 
 }
 
@@ -177,7 +177,6 @@ section{
     height: 20px;
     background-image: linear-gradient(45deg, #FF8367, #F56060);
     border-radius: 8px;
-    transition: 1s linear;
     position: relative;
 }
 
