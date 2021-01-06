@@ -170,7 +170,7 @@ section{
 
 .skill-bar {
     height: 20px;
-    background: #cacaca;
+    background-image: linear-gradient(45deg, #ddd,#cacaca);
     border-radius: 8px;
 }
 
