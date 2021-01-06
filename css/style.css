@@ -5,7 +5,7 @@
 /* ================================ */
 
 body{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Kanit', sans-serif;
 }
 .menu_section{
     text-align: right;
@@ -21,6 +21,7 @@ body{
 section{
     margin-bottom: 100px;
     height: 400px;
+    clear: both;
 }
 
 .half_part{
@@ -126,4 +127,79 @@ section{
 .footer_sec ul li img{
     width: 35px;
     height: auto;
+}
+
+.service_child{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding: 1%;
+    background-color: #fff;
+    border-radius: 13px;
+    box-shadow: 10px 10px 30px #adadad;
+    min-height: 250px;
+}
+
+.service_child img{
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+
+.service_child h2{
+    font-size: 20px;
+    text-align: center;
+}
+.service_child p{
+    text-align: center;
+}
+
+.skills {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+.skill-name {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.skill-bar {
+    height: 20px;
+    background: #cacaca;
+    border-radius: 8px;
+}
+
+.skill-per {
+    height: 20px;
+    background-image: linear-gradient(45deg, #FF8367, #F56060);
+    border-radius: 8px;
+    transition: 1s linear;
+    position: relative;
+}
+
+.html_skill{
+    width: 90%;
+}
+
+.css_skill{
+    width: 70%;
+}
+
+.js_skill{
+    width: 30%;
+}
+.jq_skill{
+    width: 30%;
+}
+
+.bots_skill{
+    width: 50%;
+}
+
+.cms_skill{
+    width: 80%;
 }
